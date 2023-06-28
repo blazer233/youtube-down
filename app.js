@@ -92,4 +92,4 @@ async function downloadPlaylist(playlistId) {
 }
 
 // 使用播放列表 ID 调用 downloadPlaylist 函数
-downloadPlaylist('PLSRvICzY_rBOIB2ixrGcwn4DNgh3Q8jxW'); // 播放列表 ID
+downloadPlaylist(process.env.LOAD_LIST); // 播放列表 ID
